@@ -14,5 +14,13 @@ module.exports = {
         additionalData: `@import "@/assets/scss/_variables.scss";`
       }
     }
+  },
+
+  configureWebpack: {
+    resolve: {
+      alias: {
+        '@': require('path').resolve(__dirname, 'src')
+      }
+    }
   }
 }
