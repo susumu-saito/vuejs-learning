@@ -1,0 +1,15 @@
+body, div, p {
+    margin: 0;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    height: 100%;
+    color: #ccc;
+    font-size: 10px;
+}
